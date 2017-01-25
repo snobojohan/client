@@ -6,6 +6,7 @@ import {sv} from "./sv.js";
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './flatpickr.css';
 
 
 const App = () => {
