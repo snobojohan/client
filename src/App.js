@@ -1,15 +1,16 @@
 // import 'flatpickr/dist/flatpickr.material_green.min.css'
-
-import Flatpickr from 'react-flatpickr';
-import {sv} from "./sv.js";
-
 import React from 'react';
+// import React, { Component, PropTypes } from 'react';
 import logo from './logo.svg';
-import './App.css';
-import './flatpickr.css';
 
+import Toggle from './components/Toggle.js';
+
+
+import './App.css';
 
 const App = () => {
+
+    // let expanded = false;
 
     return (
       <div className="App">
@@ -20,7 +21,7 @@ const App = () => {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Flatpickr options={{minDate: '2016-11-01',maxDate: '2017-03-01',locale: sv}} onChange={v => console.info(v)} />
+        <Toggle />
       </div>
     );
 

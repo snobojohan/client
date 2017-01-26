@@ -1,4 +1,5 @@
 /* Swedish locals for flatpickr */
+// eslint-disable-next-line
 var Flatpickr = Flatpickr || { l10ns: {} };
 Flatpickr.l10ns.sv = {};
 
